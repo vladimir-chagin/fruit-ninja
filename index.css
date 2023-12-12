@@ -1,0 +1,41 @@
+body {
+  width: 100vw;
+  height: 100vh;
+}
+.main {
+  padding: 10px;
+  border: 1px solid red;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+.game-container {
+  width: 600px;
+  height: 600px;
+  border: 1px solid black;
+  position: relative;
+}
+
+.game-container img {
+  position: absolute;
+}
+
+.score {
+  border: 1px solid green;
+  padding: 10px;
+  margin-right: auto;
+  width: 50%;
+}
+.score .hit {
+  border: 2px dotted green;
+  width: 100%;
+  height: 200px;
+  overflow-y: auto;
+}
+
+.score .missed {
+  width: 100%;
+  height: 200px;
+  border: 2px dotted red;
+  overflow-y: auto;
+}
